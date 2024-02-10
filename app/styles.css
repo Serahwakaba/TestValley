@@ -1,0 +1,106 @@
+.main{
+  background-color: white;
+  color: black;
+}
+
+.appname {
+    color: #53D1d7;
+    font-size: 2.5rem;
+    margin-Left: '100px';
+    font-weight: bold;
+    margin: 0;
+
+  }
+
+ .menuIconStyle  {
+    margin-Left: '20px'
+  
+  };
+  .searchStyle {
+    flex: '1';
+    text-Align: 'center';
+    margin-Left: '200px';
+  
+  
+  };
+  .categories{
+    color: black;
+  }
+
+  
+.inputStyle  {
+    padding: '5px';
+    width: '100%';
+    border-Radius: '5px';
+    border: 'none';
+    height: 40px;
+  };
+  
+  .loginSignupStyle  {
+    flex: '1';
+    text-Align: 'center';
+  };
+  
+  .buttonStyle {
+    padding: '5px 10px';
+    margin: '0 5px';
+    border-Radius: '5px';
+    background-Color: '#555';
+    color: '#fff';
+    border: 'none';
+    cursor: 'pointer';
+    
+  };
+
+
+  
+  .slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider-content {
+    display: flex;
+  }
+  
+  .slide {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensure the image fills the container */
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
+.category_container {
+    width: 100%;
+    padding: 16px 0;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 24px;
+    grid-column-gap: 12px;
+      overflow: hidden;
+    }
